@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { DataService } from './data.service';
 
 
 // This is the main place for tying our module together. App == Collection of modules tied together
@@ -29,7 +30,7 @@ import { AboutComponent } from './about/about.component';
     BrowserAnimationsModule
   ],
   // Registers providers in the root injector. Providers provide services for injection into components
-  providers: [],
+  providers: [DataService],
   // Root component of app
   bootstrap: [AppComponent]
 })
