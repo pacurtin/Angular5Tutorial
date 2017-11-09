@@ -8,6 +8,9 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  itemCount: number = 4;
+  btnText: string = 'Add an Item';
+
   constructor() { }
 
   ngOnInit() {
