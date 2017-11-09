@@ -91,7 +91,7 @@
       "allow-null-check"
     ],
     "typedef": [
-      true, "call-signature",
+      true,
       "parameter",
       "member-variable-declaration"
     ],
