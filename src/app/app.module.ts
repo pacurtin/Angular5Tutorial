@@ -4,10 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 
-import { AppComponent } from './app/app.component';
+import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { ExampleComponent } from './example/example.component';
 
 // This is the main place for tying our module together. App == Collection of modules tied together
 
@@ -16,8 +15,7 @@ import { ExampleComponent } from './example/example.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent,
-    ExampleComponent
+    AboutComponent
   ],
   // Components, Directives and pipes in our module
   imports: [
